@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 0 0 3px #rgba(4, 88, 32, 0.5);
+  text-shadow: 0 0 3px rgba(4, 88, 32, 0.5);
   color: white;
 }
 
