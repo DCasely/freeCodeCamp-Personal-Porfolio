@@ -38,8 +38,8 @@ body {
 /* WELCOME SECTION */
 
 #welcome-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(4, 88, 32, 0.45)),
-    url(./images/brooklyn-bridge.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(12, 4, 88, 0.45)),
+    url(./images/miami.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
