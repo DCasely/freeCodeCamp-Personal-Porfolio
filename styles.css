@@ -1,9 +1,72 @@
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
+  text-shadow: 0 0 3px #rgba(4, 88, 32, 0.5);
+  color: white;
 }
 
 #welcome-section,
 #projects,
 #contact {
   height: 100vh;
+}
+
+/* NAVBAR */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navbar a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  font-weight: 100;
+  color: green;
+}
+
+/* WELCOME SECTION */
+
+#welcome-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(4, 88, 32, 0.45)),
+    url(./images/brooklyn-bridge.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 15rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#welcome-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+#welcome-section p {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 720px) {
+  #navbar {
+    display: none;
+  }
 }
