@@ -1,11 +1,16 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  text-shadow: 0 0 3px rgba(4, 88, 32, 0.5);
   color: white;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 #welcome-section,
+#experience,
+#education,
+#licenses_certifications,
+#skills_endorsments,
 #projects,
 #contact {
   height: 100vh;
@@ -32,10 +37,10 @@ body {
 
 #navbar a:hover {
   font-weight: 100;
-  color: green;
+  color: rgb(9, 0, 128);
 }
 
-/* WELCOME SECTION */
+/* WELCOME/HOME SECTION */
 
 #welcome-section {
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(12, 4, 88, 0.45)),
@@ -61,6 +66,81 @@ body {
 #welcome-section p {
   font-style: italic;
   font-size: 1rem;
+}
+/* EXPERIENCE SECTION */
+
+#experience {
+  background-image: url(./images/work-experience-background.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.experience-container {
+  background-color: white;
+  opacity: 0.95;
+  box-shadow: 10px 10px 8px 10px #888888;
+  width: 75%;
+  height: 80%;
+  overflow: scroll;
+}
+
+#experience h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.work-row {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.company {
+  width: 30%;
+  height: 100%;
+  padding-left: 5%;
+}
+
+.company img {
+  display: block;
+  width: 50%;
+  margin: 2.5rem 0;
+}
+
+.company h2,
+.company h3,
+.company p {
+  margin: 0;
+}
+
+.company p {
+  font-style: italic;
+  padding-top: 0.25rem;
+}
+
+.summary {
+  padding: 1rem 5rem;
+  width: 70%;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /* MEDIA QUERY */
