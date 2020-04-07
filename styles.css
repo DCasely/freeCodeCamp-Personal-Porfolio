@@ -23,6 +23,7 @@ h3 {
 
 p,
 li {
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -107,34 +108,27 @@ li {
 #experience {
   background-color: white;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  padding: 2.5rem 0 5rem;
+  padding: 0 0 5rem;
 }
 
 .experience-container {
   height: 100%;
-  /* Apple makes their widest width 980px */
-  width: 980px;
-  overflow: scroll;
-}
-
-#experience h1 {
-  text-align: center;
-  padding: 1rem;
 }
 
 .work-row {
   display: flex;
+  height: 500px;
   width: 100%;
-  padding: 1rem 0;
+  padding-top: 2.5rem;
 }
 
 .company {
-  width: 30%;
+  width: 20%;
   height: 100%;
   padding-left: 5%;
 }
@@ -146,7 +140,8 @@ li {
 
 .company img {
   display: block;
-  box-shadow: 0px 0px 5px 5px #888888;
+  background-color: white;
+  box-shadow: 0px 0px 2.5px 2.5px #000000;
   border-radius: 50%;
   padding: 1rem;
   margin: 2.5rem 0;
@@ -160,6 +155,25 @@ li {
   margin: 0;
 }
 
+#thecaselygroup .summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+#thecaselygroup .summary div {
+  width: 45%;
+}
+
+#pointguardtraining {
+  overflow: auto;
+}
+
+#infinitysalesgroup,
+#dominospizza {
+  background-color: black;
+  color: white;
+}
+
 .summary li {
   font-style: italic;
   padding-top: 0.25rem;
@@ -168,7 +182,7 @@ li {
 
 .summary {
   padding: 1rem 5rem;
-  width: 70%;
+  width: 80%;
 }
 
 .summary p {
@@ -177,18 +191,18 @@ li {
 
 .videos {
   display: flex;
-  flex-direction: column;
 }
 
 .videos iframe {
-  margin: 2.5rem 0;
-  width: 75%;
+  margin: 2.5rem 5rem 0 0;
+  width: 45%;
   box-shadow: 0px 0px 5px 5px #888888;
 }
 
 #million-dollar-img {
   display: block;
-  width: 50%;
+
+  width: 25%;
   margin: 2.5rem 0;
   box-shadow: 0px 0px 5px 5px #888888;
 }
@@ -206,7 +220,7 @@ hr {
 
 /* EDUCATION SECTION */
 #education {
-  background-color: black;
+  background-color: white;
   height: 100vh;
   width: 100vw;
 }
@@ -225,6 +239,7 @@ hr {
 
   .work-row {
     flex-direction: column;
+    height: auto;
   }
 
   .company {
