@@ -2,14 +2,12 @@ body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  letter-spacing: 0.1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 
 h1 {
   font-size: 3rem;
-  letter-spacing: 0.25rem;
   font-weight: 600;
 }
 
