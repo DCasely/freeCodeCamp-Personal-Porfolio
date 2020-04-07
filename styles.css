@@ -98,10 +98,10 @@ li {
 }
 
 #welcome-section p {
-  /* font-style: italic; */
   font-weight: 400;
   max-width: 90%;
 }
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -211,10 +211,15 @@ hr {
   width: 100vw;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY IPHONE X */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 375px) {
   #navbar {
     display: none;
+  }
+
+  #profile-pic,
+  #welcome-section p {
+    max-width: 70%;
   }
 }
