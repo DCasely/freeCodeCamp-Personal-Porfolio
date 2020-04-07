@@ -222,4 +222,13 @@ hr {
   #welcome-section p {
     max-width: 70%;
   }
+
+  .work-row {
+    flex-direction: column;
+  }
+
+  .company {
+    margin: auto;
+    text-align: center;
+  }
 }
