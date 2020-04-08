@@ -399,10 +399,38 @@ li {
   .work-row {
     flex-direction: column;
     height: auto;
+    text-align: center;
+    padding: 5rem 0;
   }
 
   .company {
-    margin: auto;
+    width: 70%;
+  }
+
+  .company img {
+    width: 70%;
+    margin: 0 auto 2.5rem;
+  }
+
+  .summary {
+    width: 70%;
+  }
+
+  #thecaselygroup .summary {
+    flex-direction: column;
+  }
+
+  #thecaselygroup div {
+    width: 100%;
     text-align: center;
+  }
+
+  #thecaselygroup ul {
+    padding: 0;
+  }
+
+  #thecaselygroup li {
+    list-style-type: none;
+    padding: 1rem 0;
   }
 }
