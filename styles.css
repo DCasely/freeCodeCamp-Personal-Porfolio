@@ -323,10 +323,13 @@ li {
 
 .videos {
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .videos iframe {
   margin: 1rem 0 0 0;
+  width: 100%;
   max-width: 35rem;
   box-shadow: 0 0 0.5rem 0.5rem #888888;
 }
@@ -334,7 +337,8 @@ li {
 #million-dollar-img {
   margin: 1rem 0 0 0;
   display: block;
-  width: 25rem;
+  width: 100%;
+  max-width: 25rem;
   box-shadow: 0 0 0.5rem 0.5rem #888888;
 }
 
