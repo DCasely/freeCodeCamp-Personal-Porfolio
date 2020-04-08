@@ -4,6 +4,7 @@ body {
   color: #fff;
   line-height: 1.5;
   font-weight: 400;
+  width: 100vw;
 }
 
 h1 {
@@ -353,7 +354,7 @@ li {
 /* =============================================== */
 
 @media screen and (max-width: 375px) {
-  #navbar {
+  .navbar-container {
     display: none;
   }
 
@@ -361,6 +362,17 @@ li {
   #welcome-section h1,
   #welcome-section p {
     max-width: 70%;
+  }
+
+  #education {
+    flex-direction: column;
+    max-width: 70%;
+  }
+
+  .abrahamuniversity,
+  .freecodecamp,
+  .mit {
+    width: 100%;
   }
 
   .work-row {
