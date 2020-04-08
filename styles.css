@@ -88,7 +88,7 @@ li {
 #profile-pic {
   border-radius: 50%;
   width: 20rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2),
     0 0.25rem 3rem rgba(255, 60, 0, 0.19);
   opacity: 0.9;
 }
@@ -113,7 +113,7 @@ li {
 .social-media-icons {
   display: flex;
   justify-content: space-evenly;
-  width: 300px;
+  width: 20rem;
   margin: 1rem 0 0 0;
 }
 
@@ -137,7 +137,7 @@ li {
 #education {
   margin: auto;
   background-color: #000;
-  max-width: 1800px;
+  max-width: 100rem;
   height: auto;
   display: flex;
   justify-content: space-evenly;
@@ -377,6 +377,7 @@ li {
   #education {
     flex-direction: column;
     max-width: 70%;
+    text-align: center;
   }
 
   .abrahamuniversity,
