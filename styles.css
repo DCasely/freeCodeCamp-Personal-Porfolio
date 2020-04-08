@@ -137,7 +137,7 @@ li {
 #education {
   margin: auto;
   background-color: #000;
-  max-width: 100rem;
+  max-width: 150rem;
   height: auto;
   display: flex;
   justify-content: space-evenly;
@@ -181,8 +181,8 @@ li {
 .mit img,
 .freecodecamp img,
 .abrahamuniversity img {
-  width: 200px;
-  height: 175px;
+  width: 12.5rem;
+  height: 10rem;
   margin: 0 0 0 0.5rem;
   padding: 1rem;
 }
@@ -193,13 +193,13 @@ li {
 }
 
 .abrahamuniversity img {
-  box-shadow: 0px 0px 10px rgb(0, 17, 255);
+  box-shadow: 0 0 0.5rem rgb(0, 17, 255);
 }
 .freecodecamp img {
-  box-shadow: 0px 0px 10px rgb(0, 170, 37);
+  box-shadow: 0 0 0.5rem rgb(0, 170, 37);
 }
 .mit img {
-  box-shadow: 0px 0px 10px rgb(255, 0, 0);
+  box-shadow: 0 0 0.5rem rgb(255, 0, 0);
 }
 /* =============================================== */
 /* EXPERIENCE SECTION */
@@ -231,22 +231,24 @@ li {
 }
 
 .work-row {
-  max-width: 1800px;
+  max-width: 100rem;
   margin: auto;
 }
 
 .work-row {
   display: flex;
   justify-content: center;
-  height: 500px;
+  align-items: center;
+  height: 40rem;
   width: 100%;
-  padding-top: 2.5rem;
 }
 
 .company {
   width: 20%;
   height: 100%;
-  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .company h2,
@@ -257,12 +259,12 @@ li {
 .company img {
   display: block;
   background-color: white;
-  box-shadow: 0px 0px 2.5px 2.5px #000000;
+  box-shadow: 0 0 0.25rem #000000;
   border-radius: 50%;
   padding: 1rem;
   margin: 2.5rem 0;
-  width: 125px;
-  height: 125px;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 
 .company h2,
@@ -284,8 +286,16 @@ li {
   width: 75%;
 }
 
-#pointguardtraining {
-  overflow: auto;
+#pointguardtraining .summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dominospizza .summary {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #infinitysalesgroup,
@@ -294,15 +304,17 @@ li {
   color: white;
 }
 
+.summary {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .summary li {
   font-style: italic;
   padding-top: 0.25rem;
   font-weight: 400;
-}
-
-.summary {
-  padding: 1rem 5rem;
-  width: 50%;
 }
 
 .summary p {
@@ -314,28 +326,17 @@ li {
 }
 
 .videos iframe {
-  margin: 2.5rem 5rem 0 0;
-  max-width: 560px;
-  box-shadow: 0px 0px 5px 5px #888888;
+  margin: 1rem 0 0 0;
+  max-width: 35rem;
+  box-shadow: 0 0 0.5rem 0.5rem #888888;
 }
 
 #million-dollar-img {
+  margin: 1rem 0 0 0;
   display: block;
-  width: 400px;
-  margin: 2.5rem 0;
-  box-shadow: 0px 0px 5px 5px #888888;
+  width: 25rem;
+  box-shadow: 0 0 0.5rem 0.5rem #888888;
 }
-
-/* hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
-} */
 
 /* =============================================== */
 /* CERTIFICATION SECTION */
