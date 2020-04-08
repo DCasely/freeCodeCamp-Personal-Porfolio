@@ -105,6 +105,7 @@ li {
 
 #welcome-section p {
   font-weight: 400;
+  letter-spacing: 0.25rem;
   max-width: 90%;
 }
 
