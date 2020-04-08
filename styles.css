@@ -115,6 +115,10 @@ li {
   color: #fff;
 }
 
+.social-media-icons a:hover {
+  transform: scale(2);
+}
+
 /* =============================================== */
 /* EDUCATION SECTION */
 /* =============================================== */
