@@ -136,11 +136,12 @@ li {
 
 #education {
   margin: auto;
+  height: 50rem;
   background-color: #000;
-  max-width: 150rem;
-  height: auto;
+  max-width: 100rem;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   color: #000;
 }
 
@@ -170,7 +171,6 @@ li {
   height: 100%;
   background-color: #000;
   color: #fff;
-  padding: 5rem 0;
 }
 
 .freecodecamp {
@@ -201,6 +201,39 @@ li {
 .mit img {
   box-shadow: 0 0 0.5rem rgb(255, 0, 0);
 }
+
+/* =============================================== */
+/* CERTIFICATION SECTION */
+/* =============================================== */
+
+.certification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+  height: 50rem;
+}
+
+.certification-rows {
+  display: flex;
+}
+
+.certification-tiles {
+  height: 25rem;
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.certification-container img {
+  width: 5rem;
+  height: 5rem;
+  border: black solid 1rem;
+}
+
 /* =============================================== */
 /* EXPERIENCE SECTION */
 /* =============================================== */
@@ -239,7 +272,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40rem;
+  height: 50rem;
   width: 100%;
 }
 
@@ -388,12 +421,15 @@ li {
     flex-direction: column;
     max-width: 70%;
     text-align: center;
+    height: auto;
+    padding: 2.5rem 0;
   }
 
   .abrahamuniversity,
   .freecodecamp,
   .mit {
     width: 100%;
+    margin: 2.5rem 0;
   }
 
   .work-row {
