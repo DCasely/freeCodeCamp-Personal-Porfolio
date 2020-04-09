@@ -211,27 +211,62 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: gray;
-  height: 50rem;
+  height: 100rem;
+  margin: 1rem 0;
+  background: rgb(201, 201, 201);
 }
 
 .certification-rows {
   display: flex;
 }
 
+.certification-rows a {
+  text-decoration: none;
+  color: white;
+}
+
 .certification-tiles {
-  height: 25rem;
-  width: 25rem;
+  height: 50rem;
+  width: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+.certification-tiles h3 {
+  padding: 1rem 2rem;
+  box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+}
+
+.certification-tiles h3:hover {
+  transform: scale(1.1);
+}
+
+#codewars {
+  background-color: red;
+}
+
+#hackerrank {
+  background-color: green;
+}
+
+#hackerrank img {
+  background-color: #fff;
+}
+
+#datacamp {
+  background-color: rgb(28, 57, 151);
+}
+
+#codecademy {
+  background-color: rgb(28, 57, 151);
+}
+
 .certification-container img {
-  width: 5rem;
-  height: 5rem;
-  border: black solid 1rem;
+  width: 20rem;
+  height: 20rem;
+  border: black solid 0.1rem;
 }
 
 /* =============================================== */
@@ -251,6 +286,11 @@ li {
 .experience {
   height: 100%;
   width: 100vw;
+}
+
+#thecaselygroup .company,
+#thecaselygroup .summary {
+  background: #fff;
 }
 
 .work-row-white-container {
@@ -277,6 +317,7 @@ li {
 }
 
 .company {
+  padding: 0 0 0 2.5rem;
   width: 20%;
   height: 100%;
   display: flex;
