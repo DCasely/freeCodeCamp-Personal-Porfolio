@@ -131,13 +131,13 @@ li {
 
 .education-container {
   background: #000;
+  background: linear-gradient(rgba(5, 0, 24, 0.9), rgb(0, 0, 0));
   width: 100vw;
 }
 
 #education {
   margin: auto;
   height: 50rem;
-  background-color: #000;
   max-width: 100rem;
   display: flex;
   justify-content: space-evenly;
@@ -169,12 +169,10 @@ li {
   flex-direction: column;
   width: 33.3%;
   height: 100%;
-  background-color: #000;
   color: #fff;
 }
 
 .freecodecamp {
-  background-color: #000;
   color: #fff;
 }
 
@@ -211,13 +209,13 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100rem;
   margin: 1rem 0;
-  background: rgb(201, 201, 201);
 }
 
 .certification-rows {
   display: flex;
+  width: 100vw;
+  justify-content: center;
 }
 
 .certification-rows a {
@@ -226,8 +224,8 @@ li {
 }
 
 .certification-tiles {
-  height: 50rem;
-  width: 50rem;
+  height: 40rem;
+  width: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,6 +235,10 @@ li {
 .certification-tiles h3 {
   padding: 1rem 2rem;
   box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+}
+
+.certification-tiles img:hover {
+  transform: scale(1.1);
 }
 
 .certification-tiles h3:hover {
@@ -251,10 +253,6 @@ li {
   background-color: green;
 }
 
-#hackerrank img {
-  background-color: #fff;
-}
-
 #datacamp {
   background-color: rgb(28, 57, 151);
 }
@@ -266,7 +264,7 @@ li {
 .certification-container img {
   width: 20rem;
   height: 20rem;
-  border: black solid 0.1rem;
+  box-shadow: 0 0 0.5rem rgb(255, 255, 255);
 }
 
 /* =============================================== */
