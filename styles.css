@@ -16,11 +16,13 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
+  letter-spacing: 0.25rem;
   font-weight: 600;
 }
 
 h3 {
   font-size: 1.125rem;
+  letter-spacing: 0.125rem;
   font-weight: 600;
 }
 
@@ -44,6 +46,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 200;
 }
 
 #navbar {
@@ -177,9 +180,9 @@ li {
 .mit img,
 .freecodecamp img,
 .abrahamuniversity img {
-  width: 12.5rem;
-  height: 10rem;
-  margin: 0 0 0 0.5rem;
+  width: 20rem;
+  height: 15rem;
+  margin: 0 0 0 0.25rem;
   padding: 1rem;
 }
 .mit img:hover,
@@ -204,8 +207,7 @@ li {
 
 .certification-container {
   display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.5)),
-    url(./images/bluematrix.jpg);
+  background: floralwhite;
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -216,8 +218,24 @@ li {
 .certification-row {
   display: flex;
   max-width: 100rem;
-  justify-content: center;
-  box-shadow: 0 0 0.5rem rgb(0, 0, 0);
+}
+
+.certification-tiles {
+  margin: 0 5rem;
+  box-shadow: 0 0 0.25rem rgb(0, 0, 0);
+}
+
+.certification-tiles:hover {
+  box-shadow: 0 0 1rem rgb(0, 0, 0);
+  z-index: 100;
+}
+
+.certification-row:first-of-type {
+  margin: 5rem 0;
+}
+
+.certification-row:last-of-type {
+  margin: 0 0 5rem 0;
 }
 
 .certification-row a {
@@ -234,40 +252,35 @@ li {
   flex-direction: column;
 }
 
-.certification-tiles h3 {
-  margin: 0;
-  padding: 0.5rem 1rem;
-  box-shadow: 0 0 0.5rem rgb(255, 255, 255);
-}
-
-.certification-tiles img:hover {
-  transform: scale(1.1);
-}
-
-.certification-tiles h3:hover {
-  transform: scale(1.1);
-}
-
 #codewars {
-  background-color: red;
+  background-color: #800000;
 }
 
 #hackerrank {
-  background-color: green;
+  background-color: #006800;
 }
 
 #datacamp {
-  background-color: rgb(28, 57, 151);
+  background-color: #002088;
 }
 
 #codecademy {
-  background-color: rgb(28, 57, 151);
+  background-color: #474747;
 }
 
 .certification-container img {
-  width: 10rem;
-  height: 10rem;
-  box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+  height: 85%;
+  width: 100%;
+}
+
+.certification-container h2 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-top: 0.01rem #fff solid;
 }
 
 /* =============================================== */
