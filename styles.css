@@ -15,18 +15,18 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 
 p,
 li {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 600;
 }
 
@@ -47,7 +47,7 @@ li {
 }
 
 #navbar {
-  width: 60rem;
+  width: 75rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -103,8 +103,7 @@ li {
   opacity: 0.75;
 }
 
-#welcome-section p {
-  font-size: 1.25rem;
+#welcome-section h2 {
   font-weight: 400;
   letter-spacing: 0.25rem;
   max-width: 90%;
@@ -146,7 +145,6 @@ li {
 }
 
 #education h2 {
-  font-size: 1.5rem;
   margin: 2.5rem 0 0 0;
 }
 #education h3 {
@@ -205,27 +203,31 @@ li {
 /* =============================================== */
 
 .certification-container {
-  display: none;
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0.5)),
+    url(./images/bluematrix.jpg);
+  background-size: cover;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 0;
+  padding: 2.5rem 0;
 }
 
-.certification-rows {
+.certification-row {
   display: flex;
-  width: 100vw;
+  max-width: 100rem;
   justify-content: center;
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0);
 }
 
-.certification-rows a {
+.certification-row a {
   text-decoration: none;
   color: white;
 }
 
-.certification-tiles {
-  height: 40rem;
-  width: 40rem;
+.certification-tiles a {
+  height: 25rem;
+  width: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,7 +235,8 @@ li {
 }
 
 .certification-tiles h3 {
-  padding: 1rem 2rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
   box-shadow: 0 0 0.5rem rgb(255, 255, 255);
 }
 
@@ -262,8 +265,8 @@ li {
 }
 
 .certification-container img {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
   box-shadow: 0 0 0.5rem rgb(255, 255, 255);
 }
 
@@ -274,7 +277,6 @@ li {
 #experience-container {
   background-color: #fbfbfd;
   background-size: cover;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +285,7 @@ li {
 
 .experience {
   height: 100%;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 #thecaselygroup .company,
@@ -317,9 +319,9 @@ li {
 .company {
   padding: 0 0 0 2.5rem;
   width: 20%;
-  height: 100%;
+  height: 25rem;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   flex-direction: column;
 }
 
@@ -367,7 +369,12 @@ li {
 #dominospizza .summary {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+
+#infinitysalesgroup .summary p {
+  margin: 1rem 2.5rem;
 }
 
 #infinitysalesgroup,
@@ -378,9 +385,10 @@ li {
 
 .summary {
   width: 50%;
-  height: 100%;
+  height: 25rem;
   display: flex;
-  align-items: center;
+  align-items: end;
+  padding: 2.5rem 0 0 0;
 }
 
 .summary li {
@@ -415,15 +423,6 @@ li {
 }
 
 /* =============================================== */
-/* CERTIFICATION SECTION */
-/* =============================================== */
-
-#certification {
-  height: 50vh;
-  background-color: #fff;
-}
-
-/* =============================================== */
 /* MEDIA QUERY MAX-WIDTH 1200 */
 /* =============================================== */
 
@@ -431,13 +430,6 @@ li {
   #education img {
     width: 150px;
     height: 125px;
-  }
-
-  #education h2 {
-    font-size: 1.25rem;
-  }
-  #education h3 {
-    font-size: 1.125rem;
   }
 }
 
