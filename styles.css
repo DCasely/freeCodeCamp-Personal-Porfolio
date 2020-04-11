@@ -550,10 +550,12 @@ li {
 /* =============================================== */
 
 @media screen and (max-width: 375px) {
+  /* NAV SECTION */
   .navbar-container {
     display: none;
   }
 
+  /* WELCOME SECTION */
   #profile-pic,
   #welcome-section h1,
   #welcome-section h2,
@@ -561,6 +563,7 @@ li {
     max-width: 70%;
   }
 
+  /* WELCOME SECTION */
   #education {
     flex-direction: column;
     max-width: 70%;
@@ -575,6 +578,16 @@ li {
     width: 100%;
     margin: 2.5rem 0;
   }
+
+  /* CERTIFICATION SECTION */
+
+  .certification-row {
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+
+  /* EXPERIENCE SECTION */
 
   .work-row {
     flex-direction: column;
@@ -594,10 +607,13 @@ li {
 
   .summary {
     width: 70%;
+    height: auto;
+    flex-direction: column;
   }
 
   #thecaselygroup .summary {
     flex-direction: column;
+    align-items: center;
   }
 
   #thecaselygroup div {
@@ -614,21 +630,23 @@ li {
     padding: 1rem 0;
   }
 
-  /* CERTIFICATION SECTION */
-
-  .certification-row {
-    flex-direction: column;
-    height: 600px;
-    justify-content: space-evenly;
-  }
-
-  /* EXPERIENCE SECTION */
-
   .company {
     padding: 0;
   }
 
   .company img {
     width: 50%;
+  }
+
+  /* PROJECTS SECTION */
+
+  .project-rows {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-rows div {
+    margin: 2.5rem 0;
   }
 }
