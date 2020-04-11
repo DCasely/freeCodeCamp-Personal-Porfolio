@@ -145,12 +145,26 @@ li {
   margin: 5rem 0;
 }
 
+#recommendations a {
+  text-decoration: none;
+  color: #000;
+}
+
 .recommendation-imgs {
   border-radius: 50%;
 }
 
+.recommendation-imgs:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #0077b5;
+}
+
 .individual-recommendation-divs {
   margin: 5rem 0;
+}
+
+.individual-recommendation-divs h2:hover {
+  color: #0077b5;
 }
 
 .individual-recommendation-divs p {
@@ -211,8 +225,8 @@ li {
 .mit img,
 .freecodecamp img,
 .abrahamuniversity img {
-  width: 15rem;
-  height: 12.5rem;
+  width: 10rem;
+  height: 7.5rem;
   margin: 0 0 0 0.25rem;
   padding: 1rem;
 }
@@ -238,7 +252,7 @@ li {
 
 .certification-container {
   display: flex;
-  background: floralwhite;
+  background: rgb(224, 224, 224);
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -275,8 +289,8 @@ li {
 }
 
 .certification-tiles a {
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,6 +327,7 @@ li {
   justify-content: center;
   margin: 0;
   border-top: 0.01rem #fff solid;
+  font-size: 1rem;
 }
 
 /* =============================================== */
@@ -541,6 +556,7 @@ li {
 
   #profile-pic,
   #welcome-section h1,
+  #welcome-section h2,
   #welcome-section p {
     max-width: 70%;
   }
@@ -596,5 +612,23 @@ li {
   #thecaselygroup li {
     list-style-type: none;
     padding: 1rem 0;
+  }
+
+  /* CERTIFICATION SECTION */
+
+  .certification-row {
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+
+  /* EXPERIENCE SECTION */
+
+  .company {
+    padding: 0;
+  }
+
+  .company img {
+    width: 50%;
   }
 }
