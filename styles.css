@@ -128,6 +128,37 @@ li {
 }
 
 /* =============================================== */
+/* RECOMMENDATION SECTION */
+/* =============================================== */
+
+#recommendation-container {
+  color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#recommendations {
+  max-width: 100rem;
+  width: 50%;
+  margin: 5rem 0;
+}
+
+.recommendation-imgs {
+  border-radius: 50%;
+}
+
+.individual-recommendation-divs {
+  margin: 5rem 0;
+}
+
+.individual-recommendation-divs p {
+  font-style: italic;
+  font-weight: 200;
+}
+
+/* =============================================== */
 /* EDUCATION SECTION */
 /* =============================================== */
 
@@ -180,8 +211,8 @@ li {
 .mit img,
 .freecodecamp img,
 .abrahamuniversity img {
-  width: 20rem;
-  height: 15rem;
+  width: 15rem;
+  height: 12.5rem;
   margin: 0 0 0 0.25rem;
   padding: 1rem;
 }
@@ -244,8 +275,8 @@ li {
 }
 
 .certification-tiles a {
-  height: 25rem;
-  width: 30rem;
+  width: 25rem;
+  height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
