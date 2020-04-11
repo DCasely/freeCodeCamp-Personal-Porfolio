@@ -552,10 +552,10 @@ li {
 }
 
 /* =============================================== */
-/* MEDIA QUERY IPHONE X */
+/* MEDIA QUERY (MAX-WIDTH 1200px) */
 /* =============================================== */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1200px) {
   /* NAV SECTION */
   .navbar-container {
     display: none;
